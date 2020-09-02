@@ -1,0 +1,67 @@
+.find-tabs{
+  padding: 0 1rem;
+  background-color: #ffffff;
+  display: flex;
+  .remen{
+    font-size: 12px;
+    margin-right: .5rem;
+  }
+  ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    li{
+      flex: 0 0 25%;
+      margin-bottom: .5rem;
+      .svg-icon{
+        width: .8rem;
+        height: .8rem;
+      }
+      span{
+        margin-top: .5rem;
+        font-size: 12px;
+        margin-right: .5rem;
+      }
+    }
+  }
+}
+.find-list{
+  margin-top: 1rem;
+  padding: 0 1rem;
+
+  .img-warpper{
+    width: 6rem;
+    height: 6rem;
+    
+  }
+  img{
+    max-width: 100%;
+  }
+  li{
+    display: flex;
+    
+  }
+ 
+  .summary{
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: .5rem;
+  }
+  .title-wap{
+    flex: 1;
+    text-align: left;
+    margin-left: .5rem;
+    margin-top: .5rem;
+  }
+  .find-list-scroll{
+    position: absolute;
+    width: 90%;
+    height: calc(100% - 100px - 48px);
+    top: 100px;
+    
+  }
+}

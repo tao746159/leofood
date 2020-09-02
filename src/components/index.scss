@@ -1,0 +1,28 @@
+@import '../styles/color.scss';
+.header{
+  height: 40px;
+  background: $textIndex;
+  display: flex;
+  line-height: 40px;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+  text-align: center;
+
+  .dingw{
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .search{
+    flex: 0 1 70%;
+  }
+  h4{
+    color: #ffffff;
+    margin: 0 auto;
+  }
+  .search-icon{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 12px;
+  }
+}

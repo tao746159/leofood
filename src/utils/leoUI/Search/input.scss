@@ -1,0 +1,40 @@
+.input-warpper{
+  width: 100%;
+  position: relative;
+}
+
+input{
+  background: #ffffff;
+  border-radius: 5px;
+  outline: none;
+  height: 28px;
+  line-height: 28px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #45cfa8;
+}
+input.mini{
+  height: 22px;
+  line-height: 22px;
+}
+.clear{
+  position: absolute;
+  right: 0;
+  top: 13px;
+  font-size: 12px;
+  background-color: #ddd;
+  color: #ffffff;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  border-radius: 50%;
+}
+.clearright{
+right: 40px;
+top: 5px;
+}
+.search{
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}

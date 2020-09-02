@@ -1,0 +1,29 @@
+.input{
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #888888;
+  input{
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 28px;
+  }
+  .lefticon{
+    padding: 0 .3rem;
+    line-height: 30px;
+    .svg-icon{
+      font-size: 24px;
+    }
+  }
+  .clear{
+    position: absolute;
+    right: 1rem;
+    top: .5rem;
+    background-color: #888888;
+    border-radius: .5rem;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    color: #ffffff;
+  }
+}
